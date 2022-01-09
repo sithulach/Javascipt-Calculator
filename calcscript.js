@@ -153,7 +153,6 @@ function addition(){
 }
 function subtraction(){
     //requests as subtraction
-    subtractionclicked = true;
     switch (input){
         case 2: document.getElementById("textbox1").textContent += "-"; 
             if(numberclicked == true){
