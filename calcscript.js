@@ -151,24 +151,23 @@ function addition(){
         break;
     }  
 }
+function negative(){
+    //requests the number as negative
+    switch (input){
+        case 2: document.getElementById("textbox1").textContent += "-"; 
+        break;
+        case 1: document.getElementById("textbox0").textContent += "-";
+        break;
+    }
+}
 function subtraction(){
     //requests as subtraction
     switch (input){
         case 2: document.getElementById("textbox1").textContent += "-"; 
-            if(numberclicked == true){
-                subtrationclicked = true;
-            }
-            else if(numberclicked == false) {
-                subtractionclicked = false;
-            }
+        subtractionclicked = true;
         break;
         case 1: document.getElementById("textbox0").textContent += "-";
-            if(numberclicked == true){
-                subtrationclicked = true;
-            }
-            else if(numberclicked == false) {
-                subtractionclicked = false;
-            }
+        subtractionclicked = true;
         break;
     }
 }
